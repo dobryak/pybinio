@@ -19,6 +19,7 @@ setup(
     author=__AUTHOR__,
     author_email=__AUTHOR_EMAIL__,
     packages=find_packages(exclude=["tests*"]),
+    package_data={"binio": ["py.typed"]},
     zip_safe=True,
     license=__LICENSE__,
     classifiers=[

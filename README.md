@@ -1,4 +1,6 @@
-**BINIO** - is a wrapper around the `struct` python module. It contains
+# PyBinIO
+
+**PyBinIO** - is a wrapper around the `struct` python module. It contains
 convenient reader and writer classes that can be used to write primitive data
 types in a specific byte order.  
 
@@ -8,6 +10,14 @@ In addition it supports:
 - [Zigzag](https://en.wikipedia.org/wiki/Variable-length_quantity#Zigzag_encoding)
   for encoding **signed** variable length integers.  
 
+## Install
+
+The package is available on PyPI.
+
+```console
+$ python3 -m pip install pybinio
+
+```
 
 ## Usage
 

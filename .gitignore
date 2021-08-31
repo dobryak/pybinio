@@ -1,0 +1,6 @@
+*.pyc
+pybinio.egg-info/
+build/
+dist/
+env/
+__pycache__

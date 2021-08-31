@@ -2,13 +2,15 @@
 :mod:`binio.exceptions` defines the following exception hierarchy:
 
 * :exc: `BinIOException`
-    * :exc: ``
+    * :exc: `NotEnoughBytes`
+    * :exc: `OutOfRange`
 
 """
 
 __all__ = [
     "BinIOException",
     "NotEnoughBytes",
+    "OutOfRange",
 ]
 
 

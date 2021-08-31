@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import binio
 
-__VERSION__ = "0.1.0"
+__VERSION__ = "0.1.1"
 __LICENSE__ = "GPLv3"
 __AUTHOR__ = "Dobriakov Anton"
 __AUTHOR_EMAIL__ = "anton.dobryakov@gmail.com"
@@ -21,9 +21,6 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     zip_safe=True,
     license=__LICENSE__,
-    extras_require={
-        "dev": ["flake8", "isort", "mypy"]
-    },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Console",

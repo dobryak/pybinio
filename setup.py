@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import binio
 
-__VERSION__ = "0.1.1"
+__VERSION__ = "0.1.2"
 __LICENSE__ = "GPLv3"
 __AUTHOR__ = "Dobriakov Anton"
 __AUTHOR_EMAIL__ = "anton.dobryakov@gmail.com"
